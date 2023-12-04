@@ -3,6 +3,7 @@ Program o nazwie 'GamesPortal' to projekt zaliczeniowy napisany w Django.
 
 
 1. Charakterystyka projektu.
+   
 Program 'GamesPortal' jest inspirowany fanowskimi stronami internetowymi o tematyce gier komputerowych. Posiada własną bazę danych. Dane pochodzą ze strony: https://www.gry-online.pl/ . Baza została przygotowana w taki sposób, aby dawała możliwość tworzenia relacji między poszczególnymi grupami informacji. Na zbiór danych składają się kolejno kolumny:
 - game_id (nie wykorzystywane w Django),
 - title,
@@ -17,6 +18,7 @@ Program 'GamesPortal' jest inspirowany fanowskimi stronami internetowymi o temat
 
 
 2. Instalacja i uruchomienie projektu:
+   
 2.1. Projetk dostępny jest pod adressem: https://github.com/Izabela13/GamesPortal
    CODE --> Download ZIP
 2.2. plik ZIP będzie nazywał się 'GamesPortal-main', a wewnątrz niego będzie znajdował się plik docelowy 'GamesPortal'.
@@ -26,6 +28,7 @@ Program 'GamesPortal' jest inspirowany fanowskimi stronami internetowymi o temat
 
 
 3. Wygląd na stronie.
+   
 Po uruchomieniu projektu i wejściu w przeglądarce na stronę 'localhost:8000' pojawi się strona startowa 'home'. Z tej strony możemy nawigować się w panelu bocznym. Poza 'HOME' możemy użyć trzech innych przycisków: 'GRY', 'ZNAJDŹ' i "TOPKA". Mamy również dostępny panel górny, który odpowiada za rejestrację i logowanie.
 
 3.1. Przycisk 'GRY' 
@@ -54,6 +57,7 @@ Do portalu można się zalogować, ale wcześniej trzeba być zarejestrowanym. W
 
 
 4. Bibliografia
+   
 Projekt nie powstałby bez pomocy naukowo-dydaktycznych. W projekcie wykorzytsano:
 1. Filmiki z zajęć z tematyki Django i notatki dzięki temu utworzone.
 2. Książki:
