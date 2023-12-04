@@ -31,8 +31,8 @@ Wygląd na stronie.
    
 Po uruchomieniu projektu i wejściu w przeglądarce na stronę 'localhost:8000' pojawi się strona startowa 'home'. Z tej strony możemy nawigować się w panelu bocznym. Poza 'HOME' możemy użyć trzech innych przycisków: 'GRY', 'ZNAJDŹ' i "TOPKA". Mamy również dostępny panel górny, który odpowiada za rejestrację i logowanie.
 
-Przycisk 'GRY' 
-'GRY' przenosi użytkownika do tabeli z grami, w której znajdują się informacje o tytule gry, cyklu, średniej ocenie, a także możliwość dynamiczneog przejścia do szczegółów. Ponieważ tabela posiada 46 pozycji, została podzielona na strony. 
+Przycisk 'GRY': 
+przenosi użytkownika do tabeli z grami, w której znajdują się informacje o tytule gry, cyklu, średniej ocenie, a także możliwość dynamiczneog przejścia do szczegółów. Ponieważ tabela posiada 46 pozycji, została podzielona na strony. 
 
 Wejście w szczegóły danej gry pozwala na sprawdzenie (poza cyklem i średnią oceną) datę premiery światowej, producenta, kraj powstania oraz gatunki. Dodatkowo poniżej informacji znajduje się krótki opis (charakterystyka) danej gry. Poniżej ustawione są średnia oraz liczba ocen. Ze szczegółów danej gry można przemieszczać się do szczegółów innych gier. Szczegóły gry nie będą widoczne w kolejności alfabetycznej, ale w kolejności "id" danej gry. Widać to w pasku przeglądarki (np. http://localhost:8000/24?page=1). 
 a) jeśli znajdujemy się na początku listy gier, na dole pojawi się link "następna"
@@ -41,15 +41,15 @@ c) jeśli znajdujemy się na końcu listy gier, mamy możliwość wrócenia się
 Jeśli spróbujemy wpisać w adresie przeglądarki id, którego nie ma (np. http://localhost:8000/100?page=1), zobaczymy błąd: NIE ODNALEZIONO ZAWARTOŚCI.
 Będąc w szczegółach możemy wrócić do wszystkich gier klikając na link "przejdź do wszystkich gier".
 
-Przycisk 'ZNAJDŹ'
-Jest to miejsce, w któym można przeszukiwać zawartość w celu odnalezienia tytułu. Wyszukiwać można na 2 sposoby:
+Przycisk 'ZNAJDŹ':
+jest to miejsce, w któym można przeszukiwać zawartość w celu odnalezienia tytułu. Wyszukiwać można na 2 sposoby:
 1) wprowadzając jeden znak.
 2) wprowadzając więcej niż jeden znak.
 W pierwszym przypadku pojawią się tytuły gier zaczynające się od podanego znaku. Jeśli nie ma tytułu zaczynającego się od podanego znaku, wówczas dostaniemy stosowną ifnormację.
 W drugim przypadku program przeszukuje tytuły pod kątem wystąpienia danego 'zlepka znaków'. Jeśli wprowadzony ciąg znaków nie wystąpił w żadnym tytule, wówczas dostaniemy ifnromację o braku wystąpień.
 Jeśli po wprowadzeniu znaku lub znaków zostanie nam zwrócona lista gier, będzie można wejść wich szczegóły. 
 
-Przycisk 'TOPKA'
+Przycisk 'TOPKA':
 W topce znajduje się 10 najwyżej ocenionych gier. Pierwsze trzy miejsca są zaznaczone odpowiednio jako złote, srebrne i brązowe miejsce. W tym widoku zobaczymy miejsce, jakie zajmuje dana gra, jej tytuł, średnią ocenę i liczbę głosów. Dodatkowo możemy wejdź w 'SPRAWDŹ SZCZEGÓŁY', które przeniesie nas do szczegółów gier. 
 
 Rejestracja i logowanie.
